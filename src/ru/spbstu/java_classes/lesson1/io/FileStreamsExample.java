@@ -12,7 +12,6 @@ public class FileStreamsExample {
     public static void main(String[] args) throws IOException {
         FileInputStream fin = new FileInputStream(INPUT_FILE_PATH);
         FileOutputStream fout = new FileOutputStream(OUTPUT_FILE_PATH);
-
         byte[] buffer = new byte[32];
 
         while(fin.read(buffer) != -1) {

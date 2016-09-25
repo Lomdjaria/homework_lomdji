@@ -1,8 +1,6 @@
 package ru.spbstu.java_classes.lesson1.primitives;
 
-
 public class MainArguments {
-
     public static void main(String[] args) {
         // 1 variant (nicer)
         for(String arg : args) {
@@ -14,5 +12,4 @@ public class MainArguments {
             System.out.println(args[i]);
         }
     }
-
 }
